@@ -1,0 +1,16 @@
+# Changes here will be overwritten by Copier
+_commit: 5.4.0
+_src_path: https://github.com/DiamondLightSource/python-copier-template.git
+author_email: thomas.kane@diamond.ac.uk
+author_name: Thomas Kane
+description: A repo for testing scheduling python tests using kubernetes cronJobs
+distribution_name: scheduled-tests
+docker: true
+docs_type: README
+git_platform: github.com
+github_org: tomkane-dls
+package_name: scheduled_tests
+pypi: false
+repo_name: scheduled-tests
+strict_typing: false
+type_checker: pyright
