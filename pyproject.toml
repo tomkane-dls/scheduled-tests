@@ -13,7 +13,9 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
 ]
 description = "A repo for testing scheduling python tests using kubernetes cronJobs"
-dependencies = [] # Add project dependencies here, e.g. ["click", "numpy"]
+dependencies = [
+    "pytest>=9.1.1",
+] # Add project dependencies here, e.g. ["click", "numpy"]
 dynamic = ["version"]
 license.file = "LICENSE"
 readme = "README.md"
